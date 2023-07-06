@@ -1,5 +1,5 @@
 :root {
-    --background-color: #FFC700;
+    --background-color: pink;
     --bs-primary-rgb: #12296c;
   }
   
@@ -67,15 +67,18 @@
     --bs-pagination-active-bg: var(--bs-primary-rgb);
     --bs-pagination-active-border-color: var(--bs-primary-rgb);
   }
-  
+  .features{
+    line-height: 1.6;
+  }
   
   /* Home */
   @media (min-width: 1200px) {
     .home {
       background: 
         url('../img/human-1.svg') left bottom no-repeat,
-        url('../img/human-2.svg') right bottom no-repeat,
-        url('../img/noise-bg.svg') left top repeat,
+
+
+        url('../img/noise-bg.png') left top repeat,
         var(--background-color);
       ;
     }
