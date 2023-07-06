@@ -13,12 +13,46 @@ About Project:
 
 
 
-You need:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+📌 For running  website on your local system You need:
+
+
+
+
 Database (MongoDB)
+
+
 Nodejs (installed) on Local Computer
+
+
+
 Google Console Account to create the API Auth Key's
 
-Now Steps to run website on your local system
+
+
+
+
+
+
+
+
+📌 Steps to follow for running website on localhost
+
+ 
 
 1.clone git repo using command:
 
@@ -29,6 +63,8 @@ git clone https://github.com/Prasugupta21/notesMaker-webApp.git
 
 
 example below to store your credentials in .env file
+
+
 
 MONGODB_URI = mongodb+srv://<username>:<password>@mongodburlhere
 
